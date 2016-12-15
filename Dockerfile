@@ -13,7 +13,7 @@
 #   limitations under the License.
 
 FROM node
-MAINTAINER Philippe Mulet "philippe_mulet@fr.ibm.com"
+MAINTAINER Philippe Mulet "philippe_mulet@fr.ibm.com" & Jim Doran
 
 # Install the application
 ADD package.json /app/package.json
